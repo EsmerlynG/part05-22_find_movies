@@ -5,8 +5,7 @@ def find_movies(database: list, search_term: str):
         if search_term.lower() in movie["name"].lower():
             found_movies.append(movie)
 
-    return found_movies
-        
+    return found_movies     
   
 if __name__ == "__main__":
     database = [{"name": "Gone with the Python", "director": "Victor Pything", "year": 2017, "runtime": 116},
